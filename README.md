@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Especificações da Landing Page do Método Ricca
 
-## Getting Started
+## Paleta de Cores
 
-First, run the development server:
+### Azul Escuro (#2a4365)
+- **Significado**: O azul escuro transmite confiança, seriedade e estabilidade. É uma cor tradicionalmente associada a negócios e sucesso, o que reforça a credibilidade do Método Ricca.
+- **Uso**: Utilizado como cor principal no cabeçalho, na barra de navegação e em seções importantes como o CTA e depoimentos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Dourado (#f7c843)
+- **Significado**: O dourado está ligado ao sucesso, luxo e realização. Ele evoca sensações de prosperidade e riqueza, aspectos essenciais ao Método Ricca.
+- **Uso**: Utilizado para detalhes, como hover nos links de navegação e botões principais, destacando elementos importantes e incentivando a ação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Cinza Claro (#f7f8fc) e Branco (#ffffff)
+- **Significado**: O cinza claro e o branco mantêm a página leve e limpa, proporcionando um layout moderno e focado. Eles permitem que as cores principais (azul e dourado) se destaquem.
+- **Uso**: Fundo das seções e textos, garantindo que as informações sejam legíveis e o layout seja agradável.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Componentes Chave
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 1. **Cabeçalho e Barra de Navegação**
+   - **Função**: Serve como ponto de partida para a navegação, mantendo a marca visível e acessível durante toda a jornada do usuário.
+   - **Atração**: A barra de navegação fixa com links que mudam de cor ao passar o mouse (hover) atrai a atenção e facilita a navegação, mantendo o usuário engajado.
 
-## Learn More
+### 2. **Seção Principal com Hero Image**
+   - **Função**: Apresenta a proposta de valor do Método Ricca com uma imagem impactante que reforça a mensagem de sucesso e confiança.
+   - **Atração**: A combinação de uma mensagem forte com uma imagem visualmente atraente cria uma primeira impressão poderosa e desperta o interesse do leitor.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. **Seção "Como Funciona?"**
+   - **Função**: Explica de forma clara e concisa os benefícios e o funcionamento do Método Ricca, com uma comparação visual entre desafios e facilidades.
+   - **Atração**: A estrutura em colunas, com ícones e listas, torna o conteúdo fácil de digerir e visualmente agradável, incentivando a leitura.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. **Seção de Depoimentos (Carrossel)**
+   - **Função**: Construir confiança mostrando a experiência positiva de outros usuários.
+   - **Atração**: O movimento suave do carrossel e as citações destacadas mantêm o usuário engajado e reforçam a credibilidade.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 5. **Seção de Urgência**
+   - **Função**: Cria um senso de urgência e exclusividade, incentivando o usuário a tomar uma ação imediata.
+   - **Atração**: O uso de cores contrastantes e a mensagem direta estimulam o usuário a agir rapidamente, evitando perder uma oportunidade.
 
-## Deploy on Vercel
+## Considerações sobre a UX/UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Efeitos de Transição**: Animações suaves e transições ajudam a guiar o olhar do usuário e mantêm a experiência fluida.
+2. **Layout Responsivo**: Garantia de que todos os componentes estão bem alinhados e são visualmente agradáveis tanto em desktop quanto em dispositivos móveis.
+3. **Acessibilidade Visual**: Contrastes bem definidos garantem que o conteúdo seja legível e acessível, independentemente das condições de iluminação ou do dispositivo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
