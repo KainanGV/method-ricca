@@ -220,8 +220,8 @@ export default function Home() {
       </header>
 
       {/* Seção de Introdução */}
+      <span id="introducao"></span>
       <motion.section
-        id="introducao"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -247,8 +247,8 @@ export default function Home() {
       </motion.section>
 
       {/* Seção Como Funciona */}
+      <span id="como-funciona"></span>
       <motion.section
-        id="como-funciona"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -275,8 +275,8 @@ export default function Home() {
       </motion.section>
 
       {/* Seção de Benefícios */}
+      <span id="beneficios"></span>
       <motion.section
-        id="beneficios"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -339,8 +339,8 @@ export default function Home() {
       </motion.section>
 
       {/* Seção de CTA para Vídeo */}
+      <span id="cta"></span>
       <motion.section
-        id="cta"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-blue-900 text-white rounded-lg shadow-lg text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -363,8 +363,8 @@ export default function Home() {
       </motion.section>
 
       {/* Seção de Urgência */}
+      <span id="urgencia"></span>
       <motion.section
-        id="urgencia"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -402,8 +402,8 @@ export default function Home() {
       </motion.section>
 
       {/* Seção de Impacto Final */}
+      <span id="impacto"></span>
       <motion.section
-        id="impacto"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -427,8 +427,8 @@ export default function Home() {
       </motion.section>
 
       {/* Carrossel de Depoimentos */}
+      <span id="depoimentos"></span>
       <motion.section
-        id="depoimentos"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-blue-900 text-white rounded-lg shadow-lg text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -448,8 +448,8 @@ export default function Home() {
       </motion.section>
 
       {/* Seção Quem é Rafael Caetano? */}
+      <span id="contato"></span>
       <motion.section
-        id="contato"
         className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-blue-900 text-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
