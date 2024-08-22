@@ -67,7 +67,7 @@ export default function Home() {
         >
           <Image
             src="/Logo Método Ricca.png"
-            alt="Método Ricca Logo"
+            alt="Logo do Método Ricca"
             width={150}
             height={50}
           />
@@ -213,8 +213,8 @@ export default function Home() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <Image
-            src="https://images.pexels.com/photos/3184421/pexels-photo-3184421.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="Confiança e Parceria"
+            src="https://media.istockphoto.com/id/1448975511/pt/foto/business-people-shaking-hands-indicating-agreement-business-concept-progress-in-development.webp?b=1&s=612x612&w=0&k=20&c=k1Mfn31k3TjPskDbXfQx37gdWWrnkSttaxgdkLoesng="
+            alt="Imagem representando confiança e parceria"
             width={600}
             height={400}
             className="rounded-lg shadow-lg mx-auto"
@@ -241,8 +241,8 @@ export default function Home() {
           o alcance dos seus sonhos.
         </p>
         <Image
-          src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt="Oportunidade"
+          src="/9925a91a-88d6-4fd4-ad65-ad82893826e1.jpeg"
+          alt="Imagem de joias representando oportunidade"
           width={600}
           height={400}
           className="rounded-lg shadow-lg mx-auto"
@@ -269,8 +269,8 @@ export default function Home() {
           realmente importa: crescer e prosperar.
         </p>
         <Image
-          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt="Crescimento Sustentável"
+          src="https://media.istockphoto.com/id/1305227027/pt/foto/woman-relaxing-in-nature-and-using-technology.webp?b=1&s=612x612&w=0&k=20&c=pF6Z1rNMHteQ9GmShqa5L-SFl_bekl-prijIMdFckoI="
+          alt="Imagem representando liberdade para trabalhar de qualquer lugar"
           width={600}
           height={400}
           className="rounded-lg shadow-lg mx-auto"
@@ -300,13 +300,13 @@ export default function Home() {
               <li>Incerteza e riscos elevados.</li>
               <li>Complexidade operacional.</li>
             </ul>
-            <Image
-              src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Desafios de Abrir um Negócio"
+            {/* <Image
+              src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Imagem representando os desafios de abrir um negócio do zero"
               width={600}
               height={400}
               className="rounded-lg shadow-lg mt-6 mx-auto"
-            />
+            /> */}
           </div>
 
           <div className="flex flex-col justify-center items-center">
@@ -330,123 +330,14 @@ export default function Home() {
                 flexibilidade.
               </li>
             </ul>
-            <Image
-              src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Facilidades do Método Ricca"
+            {/* <Image
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Imagem representando as facilidades e segurança do Método Ricca"
               width={600}
               height={400}
               className="rounded-lg shadow-lg mt-6 mx-auto"
-            />
+            /> */}
           </div>
-        </div>
-      </motion.section>
-
-      {/* Seção de CTA para Vídeo */}
-      <span id="cta"></span>
-      <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-ocre-dourado text-marfim rounded-lg shadow-lg text-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.0 }}
-      >
-        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
-          Eu tenho muito mais para te contar
-        </h2>
-        <p className="text-base md:text-lg mb-8 text-gray-300">
-          Assista ao vídeo e descubra como o Método Ricca pode transformar sua
-          vida!
-        </p>
-        <motion.button
-          className="bg-outer-space text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-absolute-black transition-all duration-300"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Assista Agora
-        </motion.button>
-      </motion.section>
-
-      {/* Seção de Urgência */}
-      <span id="urgencia"></span>
-      <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.2 }}
-      >
-        <h2 className="text-2xl md:text-4xl font-semibold text-red-600 mb-6">
-          Esta é uma oportunidade única e limitada a poucos parceiros.
-        </h2>
-        <p className="text-base md:text-lg text-gray-700 mb-6">
-          Porque acreditamos que a qualidade do suporte e mentoria é essencial
-          para o sucesso de cada parceiro. Não queremos apenas mais membros;
-          queremos parceiros de sucesso.
-        </p>
-        <p className="text-base md:text-lg text-gray-700 mb-10">
-          Não deixe seus sonhos passarem diante dos seus olhos, agarre-os. Eles
-          podem estar a um clique de distância! Se você deseja mais informações
-          ou está pronto para começar, clique abaixo e fale diretamente comigo.
-        </p>
-        <div className="flex justify-center space-x-6">
-          <motion.button
-            className="bg-outer-space text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-absolute-black transition-all duration-300"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Quero saber mais
-          </motion.button>
-          <motion.button
-            className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Quero fechar agora
-          </motion.button>
-        </div>
-      </motion.section>
-
-      {/* Seção de Impacto Final */}
-      <span id="impacto"></span>
-      <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg text-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.4 }}
-      >
-        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
-          O sucesso não espera
-        </h2>
-        <p className="text-base md:text-lg text-gray-700 mb-10">
-          Se você deseja liberdade financeira, geográfica e a chance de
-          construir algo grandioso, o Método Ricca é para você. Lembre-se: as
-          grandes oportunidades são aquelas que agarramos antes que os outros
-          percebam.
-        </p>
-        <blockquote className="italic text-gray-500">
-          <FaQuoteLeft className="inline-block mr-2 text-gray-400" />
-          "O futuro pertence àqueles que acreditam na beleza dos seus sonhos."
-          <FaQuoteRight className="inline-block ml-2 text-gray-400" />
-          <br /> – Eleanor Roosevelt
-        </blockquote>
-      </motion.section>
-
-      {/* Carrossel de Depoimentos */}
-      <span id="depoimentos"></span>
-      <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-outer-space text-marfim rounded-lg shadow-lg text-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.6 }}
-      >
-        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
-          O que nossos parceiros dizem
-        </h2>
-        <div className="space-y-10">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="text-base md:text-lg">
-              <p className="italic text-gray-300">"{testimonial.quote}"</p>
-              <p className="mt-4 font-bold">- {testimonial.author}</p>
-            </div>
-          ))}
         </div>
       </motion.section>
 
@@ -474,8 +365,15 @@ export default function Home() {
           compartilhar com você, para que também possa construir uma carreira
           próspera.
         </p>
+        <Image
+          src="/60c915dd-7797-4488-9b4f-fd0e8a5fe359.jpg"
+          alt="Imagem de Rafael Caetano"
+          width={600}
+          height={400}
+          className="rounded-lg shadow-lg mx-auto"
+        />
         <motion.button
-          className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
+          className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300 mt-6"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
