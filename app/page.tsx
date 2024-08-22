@@ -13,6 +13,8 @@ import {
   FaQuoteRight,
   FaBars,
   FaTimes,
+  FaInstagram,
+  FaLinkedin,
 } from "react-icons/fa";
 
 export default function Home() {
@@ -382,9 +384,64 @@ export default function Home() {
       </motion.section>
 
       {/* Rodapé */}
-      <footer className="bg-outer-space text-marfim text-center py-8 mt-16">
-        <p>&copy; 2024 Método Ricca. Todos os direitos reservados.</p>
-        <p>Entre em contato: contato@metodoricca.com</p>
+      <footer className="bg-outer-space text-marfim text-center py-12 mt-16">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-col items-center">
+              <h3 className="text-xl font-semibold mb-4">Contato</h3>
+              <p className="mb-2">
+                <a
+                  href="tel:+17747323422"
+                  className="hover:text-ocre-dourado transition duration-300"
+                >
+                  +1 (774) 732-3422
+                </a>
+              </p>
+              <p className="mb-2">
+                <a
+                  href="mailto:contato@metodoricca.com"
+                  className="hover:text-ocre-dourado transition duration-300"
+                >
+                  contato@metodoricca.com
+                </a>
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <h3 className="text-xl font-semibold mb-4">Siga-nos</h3>
+              <div className="flex space-x-6">
+                <a
+                  href="https://www.instagram.com/riccajewelry"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-ocre-dourado transition duration-300"
+                  aria-label="Instagram"
+                >
+                  <FaInstagram size={24} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/rafael-ricca-b5b936308/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-ocre-dourado transition duration-300"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin size={24} />
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <h3 className="text-xl font-semibold mb-4">Endereço</h3>
+              <p>Hudson, Massachusetts</p>
+            </div>
+          </div>
+
+          <div className="mt-8 border-t border-marfim pt-4">
+            <p>&copy; 2024 Método Ricca. Todos os direitos reservados.</p>
+            <p className="text-sm mt-2">Desenvolvido com ♥ por Método Ricca.</p>
+          </div>
+        </div>
       </footer>
     </div>
   );
