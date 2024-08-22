@@ -14,8 +14,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        gold: "#f5a623",
         "gold-dark": "#d99420",
+        marfim: "#F8F7F2",
+        "ocre-amarelo": "#B78E49",
+        "ocre-dourado": "#AA8F53",
+        "outer-space": "#454545",
+        "absolute-black": "#020202",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

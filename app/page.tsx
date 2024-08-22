@@ -56,60 +56,61 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-gray-50 text-gray-900">
+    <div className="bg-marfim text-outer-space font-poppins">
       {/* Barra de Navegação */}
-      <nav className="fixed top-0 left-0 w-full bg-blue-900 text-white shadow-lg z-50 transition-all duration-300 ease-in-out">
+      <nav className="fixed top-0 left-0 w-full bg-outer-space text-marfim shadow-lg z-50 transition-all duration-300 ease-in-out">
         <div
           className="container mx-auto flex justify-between items-center px-4 py-3 md:py-4 transition-all duration-300 ease-in-out"
           style={{
             backdropFilter: "blur(10px)",
-            backgroundColor:
-              scrollProgress > 5 ? "rgba(42, 67, 101, 0.8)" : "transparent",
           }}
         >
-          <a href="#home" className="font-bold text-lg md:text-xl">
-            Método Ricca
-          </a>
+          <Image
+            src="/Logo Método Ricca.png"
+            alt="Método Ricca Logo"
+            width={150}
+            height={50}
+          />
           <div className="hidden md:flex space-x-2 md:space-x-4">
             <a
               href="#introducao"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Introdução
             </a>
             <a
               href="#como-funciona"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Como Funciona
             </a>
             <a
               href="#beneficios"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Benefícios
             </a>
             <a
               href="#cta"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Vídeo
             </a>
             <a
               href="#urgencia"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Urgência
             </a>
             <a
               href="#impacto"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Impacto Final
             </a>
             <a
               href="#contato"
-              className="text-sm md:text-base hover:text-gold transition duration-300"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Contato
             </a>
@@ -120,58 +121,60 @@ export default function Home() {
             </button>
           </div>
         </div>
-        {/* Barra de Progresso */}
-        <div className="h-1 bg-gold" style={{ width: `${scrollProgress}%` }} />
+        <div
+          className="h-1 bg-ocre-amarelo"
+          style={{ width: `${scrollProgress}%` }}
+        />
 
         {/* Menu Mobile */}
         {isMenuOpen && (
-          <div className="absolute top-0 left-0 w-full h-screen bg-blue-900 text-white flex flex-col items-center justify-center space-y-6 z-40">
+          <div className="absolute top-0 left-0 w-full h-screen bg-outer-space text-marfim flex flex-col items-center justify-center space-y-6 z-40">
             <a
               href="#introducao"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Introdução
             </a>
             <a
               href="#como-funciona"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Como Funciona
             </a>
             <a
               href="#beneficios"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Benefícios
             </a>
             <a
               href="#cta"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Vídeo
             </a>
             <a
               href="#urgencia"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Urgência
             </a>
             <a
               href="#impacto"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Impacto Final
             </a>
             <a
               href="#contato"
               onClick={toggleMenu}
-              className="text-lg hover:text-gold transition duration-300"
+              className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Contato
             </a>
@@ -182,10 +185,10 @@ export default function Home() {
       {/* Seção Principal */}
       <header
         id="home"
-        className="bg-blue-900 text-white text-center py-24 md:py-32 mt-16 rounded-b-3xl"
+        className="bg-outer-space text-marfim text-center py-24 md:py-32 mt-16 rounded-b-3xl px-6 md:px-12"
       >
         <motion.h1
-          className="text-2xl md:text-4xl font-bold mb-4"
+          className="text-3xl md:text-5xl font-bold mb-6"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -194,7 +197,7 @@ export default function Home() {
           sonhada liberdade financeira e geográfica
         </motion.h1>
         <motion.p
-          className="text-base md:text-lg font-light mb-8"
+          className="text-lg md:text-xl font-light mb-10 max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -204,7 +207,7 @@ export default function Home() {
           ouro.
         </motion.p>
         <motion.div
-          className="mt-8 px-4 md:px-0"
+          className="mt-10"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -222,15 +225,15 @@ export default function Home() {
       {/* Seção de Introdução */}
       <span id="introducao"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
           Você está a um passo de revolucionar sua vida profissional e pessoal
         </h2>
-        <p className="text-sm md:text-base text-gray-700 mb-4">
+        <p className="text-base md:text-lg text-gray-700 mb-6">
           O Método Ricca nasceu para democratizar o acesso ao mercado de jóias
           de ouro 18k, oferecendo uma solução simples, lucrativa e acessível.
           Não importa se você já trabalha com joias, está em transição de
@@ -249,15 +252,15 @@ export default function Home() {
       {/* Seção Como Funciona */}
       <span id="como-funciona"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.6 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
           Como funciona?
         </h2>
-        <p className="text-sm md:text-base text-gray-700 mb-4">
+        <p className="text-base md:text-lg text-gray-700 mb-6">
           Imagine ter seu próprio negócio de jóias de ouro 18k sem precisar
           investir em estoque, espaço físico ou processos burocráticos. Com o
           Método Ricca, você terá acesso a um site personalizado, com mais de
@@ -277,21 +280,21 @@ export default function Home() {
       {/* Seção de Benefícios */}
       <span id="beneficios"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.8 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
           Abrir um negócio do zero vs. Entrar no Método Ricca
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm md:text-base text-gray-700 items-center justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-base md:text-lg text-outer-space items-center justify-items-center">
           <div className="flex flex-col justify-center items-center">
-            <h3 className="text-xl font-semibold text-red-600 mb-2 flex items-center">
+            <h3 className="text-xl md:text-2xl font-semibold text-red-600 mb-4 flex items-center">
               <FaBolt className="mr-2" /> Os desafios de abrir um negócio do
               zero:
             </h3>
-            <ul className="list-disc list-inside mb-6">
+            <ul className="list-disc list-inside mb-6 text-gray-700">
               <li>Investimento inicial elevado.</li>
               <li>Tempo e dedicação intensivos.</li>
               <li>Incerteza e riscos elevados.</li>
@@ -307,11 +310,11 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <h3 className="text-xl font-semibold text-green-600 mb-2 flex items-center">
+            <h3 className="text-xl md:text-2xl font-semibold text-green-600 mb-4 flex items-center">
               <FaShieldAlt className="mr-2" /> As facilidades de entrar no
               Método Ricca:
             </h3>
-            <ul className="list-disc list-inside mb-6">
+            <ul className="list-disc list-inside mb-6 text-gray-700">
               <li>
                 <FaCoins className="inline-block mr-2" /> Baixo investimento.
               </li>
@@ -341,20 +344,20 @@ export default function Home() {
       {/* Seção de CTA para Vídeo */}
       <span id="cta"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-blue-900 text-white rounded-lg shadow-lg text-center"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-ocre-dourado text-marfim rounded-lg shadow-lg text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.0 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
           Eu tenho muito mais para te contar
         </h2>
-        <p className="text-sm md:text-base mb-6">
+        <p className="text-base md:text-lg mb-8 text-gray-300">
           Assista ao vídeo e descubra como o Método Ricca pode transformar sua
           vida!
         </p>
         <motion.button
-          className="bg-gold text-blue-900 px-6 py-3 rounded-lg shadow-md hover:bg-gold-dark transition-all duration-300"
+          className="bg-outer-space text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-absolute-black transition-all duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -365,34 +368,34 @@ export default function Home() {
       {/* Seção de Urgência */}
       <span id="urgencia"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold text-red-600 mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-red-600 mb-6">
           Esta é uma oportunidade única e limitada a poucos parceiros.
         </h2>
-        <p className="text-sm md:text-base text-gray-700 mb-4">
+        <p className="text-base md:text-lg text-gray-700 mb-6">
           Porque acreditamos que a qualidade do suporte e mentoria é essencial
           para o sucesso de cada parceiro. Não queremos apenas mais membros;
           queremos parceiros de sucesso.
         </p>
-        <p className="text-sm md:text-base text-gray-700 mb-6">
+        <p className="text-base md:text-lg text-gray-700 mb-10">
           Não deixe seus sonhos passarem diante dos seus olhos, agarre-os. Eles
           podem estar a um clique de distância! Se você deseja mais informações
           ou está pronto para começar, clique abaixo e fale diretamente comigo.
         </p>
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center space-x-6">
           <motion.button
-            className="bg-blue-900 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300"
+            className="bg-outer-space text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-absolute-black transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             Quero saber mais
           </motion.button>
           <motion.button
-            className="bg-gold text-blue-900 px-6 py-3 rounded-lg shadow-md hover:bg-gold-dark transition-all duration-300"
+            className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -404,15 +407,15 @@ export default function Home() {
       {/* Seção de Impacto Final */}
       <span id="impacto"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-white rounded-lg shadow-lg text-center"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.4 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
           O sucesso não espera
         </h2>
-        <p className="text-sm md:text-base text-gray-700 mb-6">
+        <p className="text-base md:text-lg text-gray-700 mb-10">
           Se você deseja liberdade financeira, geográfica e a chance de
           construir algo grandioso, o Método Ricca é para você. Lembre-se: as
           grandes oportunidades são aquelas que agarramos antes que os outros
@@ -429,19 +432,19 @@ export default function Home() {
       {/* Carrossel de Depoimentos */}
       <span id="depoimentos"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-blue-900 text-white rounded-lg shadow-lg text-center"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-outer-space text-marfim rounded-lg shadow-lg text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.6 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
           O que nossos parceiros dizem
         </h2>
-        <div className="space-y-8">
+        <div className="space-y-10">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="text-sm md:text-base">
-              <p className="italic">"{testimonial.quote}"</p>
-              <p className="mt-2 font-bold">- {testimonial.author}</p>
+            <div key={index} className="text-base md:text-lg">
+              <p className="italic text-gray-300">"{testimonial.quote}"</p>
+              <p className="mt-4 font-bold">- {testimonial.author}</p>
             </div>
           ))}
         </div>
@@ -450,21 +453,21 @@ export default function Home() {
       {/* Seção Quem é Rafael Caetano? */}
       <span id="contato"></span>
       <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-12 p-6 md:p-8 bg-blue-900 text-white rounded-lg shadow-lg"
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-outer-space text-marfim rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.8 }}
       >
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
           Quem é Rafael Caetano?
         </h2>
-        <p className="text-sm md:text-base mb-4">
+        <p className="text-base md:text-lg mb-6">
           Mais conhecido como Ricca ou Rafael Ricca, é um amado marido e pai de
           três filhas, CEO do Grupo Ricca, mentor e palestrante. Começou a
           trabalhar com ouro entre 1994 e 1995, ajudando o pai no negócio da
           família, que já estava consolidado desde 1950.
         </p>
-        <p className="text-sm md:text-base mb-6">
+        <p className="text-base md:text-lg mb-10">
           Já em 2001, abriu sua primeira empresa no mesmo segmento no Brasil. E,
           há 5 anos atua no mercado norte-americano, atendendo especialmente a
           comunidade brasileira. Esse é um legado que ele valoriza e que deseja
@@ -472,7 +475,7 @@ export default function Home() {
           próspera.
         </p>
         <motion.button
-          className="bg-gold text-blue-900 px-6 py-3 rounded-lg shadow-md hover:bg-gold-dark transition-all duration-300"
+          className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -481,7 +484,7 @@ export default function Home() {
       </motion.section>
 
       {/* Rodapé */}
-      <footer className="bg-gray-900 text-white text-center py-6 mt-12">
+      <footer className="bg-outer-space text-marfim text-center py-8 mt-16">
         <p>&copy; 2024 Método Ricca. Todos os direitos reservados.</p>
         <p>Entre em contato: contato@metodoricca.com</p>
       </footer>
