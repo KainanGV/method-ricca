@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <div className="bg-marfim text-outer-space font-poppins">
       {/* Barra de Navegação */}
-      <nav className="fixed top-0 left-0 w-full bg-outer-space text-marfim shadow-lg z-50 transition-all duration-300 ease-in-out">
+      <nav className="fixed top-0 left-0 w-full bg-marfim text-outer-space shadow-lg z-50 transition-all duration-300 ease-in-out">
         <div
           className="container mx-auto flex justify-between items-center px-4 py-3 md:py-4 transition-all duration-300 ease-in-out"
           style={{
@@ -185,7 +185,7 @@ export default function Home() {
       {/* Seção Principal */}
       <header
         id="home"
-        className="bg-outer-space text-marfim text-center py-24 md:py-32 mt-16 rounded-b-3xl px-6 md:px-12"
+        className="bg-marfim text-outer-space text-center py-24 md:py-32 mt-16 rounded-b-3xl px-6 md:px-12"
       >
         <motion.h1
           className="text-3xl md:text-5xl font-bold mb-6"
@@ -348,7 +348,10 @@ export default function Home() {
             style={{ maxHeight: "400px" }}
             controls
           >
-            <source src="/Vídeo do WhatsApp de 2024-08-17 à(s) 12.40.33_e56b64a2.mp4" type="video/mp4" />
+            <source
+              src="/Vídeo do WhatsApp de 2024-08-17 à(s) 12.40.33_e56b64a2.mp4"
+              type="video/mp4"
+            />
             Seu navegador não suporta o elemento de vídeo.
           </video>
         </div>
@@ -375,12 +378,22 @@ export default function Home() {
           podem estar a um clique de distância!
         </p>
         <div className="flex justify-center space-x-4">
-          <button className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300">
+          <a
+            href="https://wa.me/17747323422"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
+          >
             Quero saber mais
-          </button>
-          <button className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300">
+          </a>
+          <a
+            href="https://wa.me/17747323422"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
+          >
             Quero fechar agora
-          </button>
+          </a>
         </div>
       </motion.section>
 
@@ -438,15 +451,18 @@ export default function Home() {
           alt="Imagem de Rafael Caetano"
           width={600}
           height={400}
-          className="rounded-lg shadow-lg mx-auto"
+          className="rounded-lg shadow-lg mx-auto mb-6" // Adiciona espaço abaixo da imagem
         />
-        <motion.button
+        <motion.a
+          href="https://wa.me/17747323422"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300 mt-6"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
           Fale Comigo
-        </motion.button>
+        </motion.a>
       </motion.section>
 
       {/* Rodapé */}
