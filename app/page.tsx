@@ -9,8 +9,6 @@ import {
   FaCoins,
   FaBolt,
   FaGlobe,
-  FaQuoteLeft,
-  FaQuoteRight,
   FaBars,
   FaTimes,
   FaInstagram,
@@ -215,7 +213,7 @@ export default function Home() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <Image
-            src="https://media.istockphoto.com/id/1448975511/pt/foto/business-people-shaking-hands-indicating-agreement-business-concept-progress-in-development.webp?b=1&s=612x612&w=0&k=20&c=k1Mfn31k3TjPskDbXfQx37gdWWrnkSttaxgdkLoesng="
+            src="/Imagem do WhatsApp de 2024-08-22 à(s) 08.44.17_71e24b0d.jpg"
             alt="Imagem representando confiança e parceria"
             width={600}
             height={400}
@@ -302,13 +300,6 @@ export default function Home() {
               <li>Incerteza e riscos elevados.</li>
               <li>Complexidade operacional.</li>
             </ul>
-            {/* <Image
-              src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Imagem representando os desafios de abrir um negócio do zero"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-lg mt-6 mx-auto"
-            /> */}
           </div>
 
           <div className="flex flex-col justify-center items-center">
@@ -332,15 +323,90 @@ export default function Home() {
                 flexibilidade.
               </li>
             </ul>
-            {/* <Image
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Imagem representando as facilidades e segurança do Método Ricca"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-lg mt-6 mx-auto"
-            /> */}
           </div>
         </div>
+      </motion.section>
+
+      {/* Seção de CTA para Vídeo */}
+      <span id="cta"></span>
+      <motion.section
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.0 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6 text-center">
+          Eu tenho muito mais para te contar
+        </h2>
+        <p className="text-base md:text-lg text-gray-700 mb-6 text-center">
+          Assista ao vídeo e descubra como o Método Ricca pode transformar sua
+          vida!
+        </p>
+        <div className="flex justify-center">
+          <video
+            className="rounded-lg shadow-lg max-w-full h-auto"
+            style={{ maxHeight: "400px" }}
+            controls
+          >
+            <source src="/Vídeo do WhatsApp de 2024-08-17 à(s) 12.40.33_e56b64a2.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      </motion.section>
+
+      {/* Seção de Urgência */}
+      <span id="urgencia"></span>
+      <motion.section
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.2 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
+          Esta é uma oportunidade única e limitada a poucos parceiros
+        </h2>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Porque acreditamos que a qualidade do suporte e mentoria é essencial
+          para o sucesso de cada parceiro. Não queremos apenas mais membros;
+          queremos parceiros de sucesso.
+        </p>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Não deixe seus sonhos passarem diante dos seus olhos, agarre-os. Eles
+          podem estar a um clique de distância!
+        </p>
+        <div className="flex justify-center space-x-4">
+          <button className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300">
+            Quero saber mais
+          </button>
+          <button className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300">
+            Quero fechar agora
+          </button>
+        </div>
+      </motion.section>
+
+      {/* Seção de Impacto Final */}
+      <span id="impacto"></span>
+      <motion.section
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.4 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
+          O sucesso não espera
+        </h2>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Se você deseja liberdade financeira, geográfica e a chance de
+          construir algo grandioso, o Método Ricca é para você. Lembre-se: as
+          grandes oportunidades são aquelas que agarramos antes que os outros
+          percebam.
+        </p>
+        <blockquote className="text-lg md:text-xl font-semibold text-outer-space italic mb-4">
+          "O futuro pertence àqueles que acreditam na beleza dos seus sonhos."
+        </blockquote>
+        <p className="text-right text-base md:text-lg text-gray-700">
+          — Eleanor Roosevelt
+        </p>
       </motion.section>
 
       {/* Seção Quem é Rafael Caetano? */}
