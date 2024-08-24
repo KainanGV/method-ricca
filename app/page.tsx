@@ -343,17 +343,12 @@ export default function Home() {
           vida!
         </p>
         <div className="flex justify-center">
-          <video
-            className="rounded-lg shadow-lg max-w-full h-auto"
-            style={{ maxHeight: "400px" }}
-            controls
-          >
-            <source
-              src="/Vídeo do WhatsApp de 2024-08-17 à(s) 12.40.33_e56b64a2.mp4"
-              type="video/mp4"
-            />
-            Seu navegador não suporta o elemento de vídeo.
-          </video>
+          <iframe
+            className="rounded-lg shadow-lg max-w-full h-96 w-full"
+            src="https://www.youtube.com/embed/BPZSQUIJWiI"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
       </motion.section>
 
@@ -379,15 +374,16 @@ export default function Home() {
         </p>
         <div className="flex justify-center space-x-4">
           <a
-            href="https://wa.me/17747323422"
+            href="https://wa.me/17747323422?text=Olá,%20eu%20preciso%20de%20mais%20informações%20sobre%20o%20Método%20Ricca!"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
           >
             Quero saber mais
           </a>
+
           <a
-            href="https://wa.me/17747323422"
+            href="https://wa.me/17747323422?text=Olá,%20eu%20quero%20entrar%20para%20o%20Método%20Ricca.%20Vamos%20fechar?"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300"
@@ -454,7 +450,7 @@ export default function Home() {
           className="rounded-lg shadow-lg mx-auto mb-6" // Adiciona espaço abaixo da imagem
         />
         <motion.a
-          href="https://wa.me/17747323422"
+          href="https://wa.me/17747323422?text=Olá,%20eu%20gostaria%20de%20falar%20com%20você%20sobre%20o%20Método%20Ricca!"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300 mt-6"
