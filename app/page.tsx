@@ -343,12 +343,14 @@ export default function Home() {
           vida!
         </p>
         <div className="flex justify-center">
-          <iframe
-            className="rounded-lg shadow-lg max-w-full h-96 w-full"
-            src="https://www.youtube.com/embed/BPZSQUIJWiI"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+              src="https://www.youtube.com/embed/BPZSQUIJWiI"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </motion.section>
 
