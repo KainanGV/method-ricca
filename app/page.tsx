@@ -186,7 +186,7 @@ export default function Home() {
         className="bg-marfim text-outer-space text-center py-24 md:py-32 mt-16 rounded-b-3xl px-6 md:px-12"
       >
         <motion.h1
-          className="text-3xl md:text-5xl font-bold mb-6"
+          className="text-3xl md:text-5xl sm:text-4xl font-bold mb-6"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -334,12 +334,6 @@ export default function Home() {
               em estoque, nem se preocupar com fotografia ou logística. Nós
               fornecemos as ferramentas para que você comece a vender
               imediatamente.
-            </li>
-            <li className="mb-4">
-              <span className="font-semibold">Aumente seus lucros: </span>
-              Com um desconto de 40% a 50% em todos os produtos, você tem
-              liberdade total para definir sua margem de lucro. Ofereça joias
-              exclusivas e
             </li>
             <li className="mb-4">
               <span className="font-semibold">Fortaleça a relação com seus clientes: </span>
