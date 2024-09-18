@@ -322,36 +322,34 @@ export default function Home() {
         <div className="text-base md:text-lg text-outer-space items-center justify-items-center">
           <ul className="list-disc list-inside mb-6 text-gray-700">
             <li className="mb-4">
-              <span className="font-semibold">Aumente seus lucros:</span>
+              <span className="font-semibold">Aumente seus lucros: </span>
               Com um desconto de 40% a 50% em todos os produtos, você tem
               liberdade total para definir sua margem de lucro. Ofereça joias
               exclusivas e de alta qualidade, garantindo mais vendas e um ticket
               médio maior para seus clientes.
             </li>
             <li className="mb-4">
-              <span className="font-semibold">Riscos minimizados:</span>
+              <span className="font-semibold">Riscos minimizados: </span>
               Tudo o que você precisa já está pronto. Não é necessário investir
               em estoque, nem se preocupar com fotografia ou logística. Nós
               fornecemos as ferramentas para que você comece a vender
               imediatamente.
             </li>
             <li className="mb-4">
-              <span className="font-semibold">Aumente seus lucros:</span>
+              <span className="font-semibold">Aumente seus lucros: </span>
               Com um desconto de 40% a 50% em todos os produtos, você tem
               liberdade total para definir sua margem de lucro. Ofereça joias
               exclusivas e
             </li>
             <li className="mb-4">
-              <span className="font-semibold">
-                Fortaleça a relação com seus clientes:
-              </span>
+              <span className="font-semibold">Fortaleça a relação com seus clientes: </span>
               Ao oferecer um portfólio de joias de ouro 18k, você reforça sua
               posição como especialista e referência no mercado, fidelizando
               seus clientes e atraindo novos públicos que buscam exclusividade e
               luxo.
             </li>
             <li className="mb-4">
-              <span className="font-semibold">Parceria estratégica:</span>
+              <span className="font-semibold">Parceria estratégica: </span>
               Trabalhar com o Método Ricca é contar com décadas de experiência
               no setor de joias. Oferecemos suporte completo, com mentorias
               exclusivas, insights de mercado e uma equipe pronta para ajudar
