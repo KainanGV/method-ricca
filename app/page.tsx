@@ -85,16 +85,22 @@ export default function Home() {
               Como Funciona
             </a>
             <a
+              href="#why"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
+            >
+              Por que escolher método ricca
+            </a>
+            <a
               href="#beneficios"
               className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Benefícios
             </a>
             <a
-              href="#cta"
+              href="#diferent"
               className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
-              Vídeo
+              Diferenciação
             </a>
             <a
               href="#urgencia"
@@ -107,12 +113,6 @@ export default function Home() {
               className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
               Impacto Final
-            </a>
-            <a
-              href="#contato"
-              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
-            >
-              Contato
             </a>
           </div>
           <div className="md:hidden">
@@ -144,6 +144,12 @@ export default function Home() {
               Como Funciona
             </a>
             <a
+              href="#why"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
+            >
+              Por que escolher método ricca
+            </a>
+            <a
               href="#beneficios"
               onClick={toggleMenu}
               className="text-lg hover:text-ocre-dourado transition duration-300"
@@ -151,11 +157,10 @@ export default function Home() {
               Benefícios
             </a>
             <a
-              href="#cta"
-              onClick={toggleMenu}
-              className="text-lg hover:text-ocre-dourado transition duration-300"
+              href="#diferent"
+              className="text-sm md:text-base hover:text-ocre-dourado transition duration-300"
             >
-              Vídeo
+              Diferenciação
             </a>
             <a
               href="#urgencia"
@@ -170,13 +175,6 @@ export default function Home() {
               className="text-lg hover:text-ocre-dourado transition duration-300"
             >
               Impacto Final
-            </a>
-            <a
-              href="#contato"
-              onClick={toggleMenu}
-              className="text-lg hover:text-ocre-dourado transition duration-300"
-            >
-              Contato
             </a>
           </div>
         )}
@@ -193,8 +191,8 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Com o Método Ricca, você dita as regras do jogo: Conquiste sua tão
-          sonhada liberdade financeira e geográfica
+          Eleve seus lucros no mercado de joias de ouro 18k com o Método Ricca:{" "}
+          <br />O parceiro que faltava para maximizar seus resultados.
         </motion.h1>
         <motion.p
           className="text-lg md:text-xl font-light mb-10 max-w-3xl mx-auto"
@@ -202,9 +200,9 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Poucas oportunidades têm o poder de mudar vidas. O Método Ricca é uma
-          delas. Junte-se a nós e escreva seu próprio capítulo de sucesso em
-          ouro.
+          Seja parte de uma revolução no segmento de joias. O Método Ricca
+          oferece a solução completa para você aumentar seu faturamento e
+          entregar mais valor aos seus clientes.
         </motion.p>
         <motion.div
           className="mt-10"
@@ -213,7 +211,7 @@ export default function Home() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <Image
-            src="/Imagem do WhatsApp de 2024-08-22 à(s) 08.44.17_71e24b0d.jpg"
+            src="/first.png"
             alt="Imagem representando confiança e parceria"
             width={600}
             height={400}
@@ -234,11 +232,12 @@ export default function Home() {
           Você está a um passo de revolucionar sua vida profissional e pessoal
         </h2>
         <p className="text-base md:text-lg text-gray-700 mb-6">
-          O Método Ricca nasceu para democratizar o acesso ao mercado de jóias
-          de ouro 18k, oferecendo uma solução simples, lucrativa e acessível.
-          Não importa se você já trabalha com joias, está em transição de
-          carreira ou busca um meio de empreender de casa—nós temos a chave para
-          o alcance dos seus sonhos.
+          Você que já faz parte do universo da moda, acessórios, estética e/ou
+          vende joias, agora, está na hora de dar um passo à frente. O Método
+          Ricca foi criado para profissionais como você, que buscam não apenas
+          mais um fornecedor, mas um parceiro estratégico para potencializar
+          seus negócios e conquistar clientes com produtos de alta qualidade e
+          confiança.
         </p>
         <Image
           src="/9925a91a-88d6-4fd4-ad65-ad82893826e1.jpeg"
@@ -261,20 +260,52 @@ export default function Home() {
           Como funciona?
         </h2>
         <p className="text-base md:text-lg text-gray-700 mb-6">
-          Imagine ter seu próprio negócio de jóias de ouro 18k sem precisar
-          investir em estoque, espaço físico ou processos burocráticos. Com o
-          Método Ricca, você terá acesso a um site personalizado, com mais de
-          2.000 produtos prontos para venda, suporte completo de uma marca que
-          carrega décadas de tradição. Tudo isso enquanto você foca no que
-          realmente importa: crescer e prosperar.
+          Imagine ter um catálogo completo de joias de ouro 18k à sua
+          disposição, sem a necessidade de investir em estoque ou em espaço
+          físico. Com o Método Ricca, você terá acesso a um site personalizado
+          com milhares de produtos prontos para venda. Nós cuidamos da
+          logística, fotografia e cadastro de produtos, enquanto você foca no
+          crescimento e na diversificação da sua oferta, ampliando o seu alcance
+          no mercado de luxo.
         </p>
         <Image
-          src="https://media.istockphoto.com/id/1305227027/pt/foto/woman-relaxing-in-nature-and-using-technology.webp?b=1&s=612x612&w=0&k=20&c=pF6Z1rNMHteQ9GmShqa5L-SFl_bekl-prijIMdFckoI="
+          src="/third.png"
           alt="Imagem representando liberdade para trabalhar de qualquer lugar"
           width={600}
           height={400}
           className="rounded-lg shadow-lg mx-auto"
         />
+      </motion.section>
+      {/* Por que escolher método ricca */}
+      <span id="why"></span>
+      <motion.section
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.8 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
+          Por que escolher o Método Ricca?
+        </h2>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Você já entende o valor de oferecer produtos de qualidade aos seus
+          clientes. O Método Ricca permite que você amplie seu portfólio com
+          joias de ouro 18k, sem os custos e preocupações de investir em um novo
+          negócio do zero, por exemplo.
+        </p>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Muitas pessoas optam por abrir uma franquia para evitar os desafios de
+          começar do zero: altos custos, falta de reconhecimento e a necessidade
+          de construir tudo do início. No entanto, mesmo em uma franquia, os
+          obstáculos são grandes.
+        </p>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          O Método Ricca se assemelha a um modelo de franquia, conosco você tem
+          acesso a um sistema eficiente, processos otimizados e suporte
+          contínuo, acelerando o sucesso e minimizando riscos. Enquanto abrir
+          uma franquia exige tempo e recursos, o Método Ricca oferece uma
+          entrada e permanência mais eficiente e segura no mercado.
+        </p>
       </motion.section>
 
       {/* Seção de Benefícios */}
@@ -286,72 +317,104 @@ export default function Home() {
         transition={{ duration: 1, delay: 0.8 }}
       >
         <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
-          Abrir um negócio do zero vs. Entrar no Método Ricca
+          Agregar valor ao seu negócio com o Método Ricca
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-base md:text-lg text-outer-space items-center justify-items-center">
-          <div className="flex flex-col justify-center items-center">
-            <h3 className="text-xl md:text-2xl font-semibold text-red-600 mb-4 flex items-center">
-              <FaBolt className="mr-2" /> Os desafios de abrir um negócio do
-              zero:
-            </h3>
-            <ul className="list-disc list-inside mb-6 text-gray-700">
-              <li>Investimento inicial elevado.</li>
-              <li>Tempo e dedicação intensivos.</li>
-              <li>Incerteza e riscos elevados.</li>
-              <li>Complexidade operacional.</li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col justify-center items-center">
-            <h3 className="text-xl md:text-2xl font-semibold text-green-600 mb-4 flex items-center">
-              <FaShieldAlt className="mr-2" /> As facilidades de entrar no
-              Método Ricca:
-            </h3>
-            <ul className="list-disc list-inside mb-6 text-gray-700">
-              <li>
-                <FaCoins className="inline-block mr-2" /> Baixo investimento.
-              </li>
-              <li>
-                <FaBolt className="inline-block mr-2" /> Rápido e simples.
-              </li>
-              <li>
-                <FaShieldAlt className="inline-block mr-2" /> Segurança e
-                mentoria.
-              </li>
-              <li>
-                <FaGlobe className="inline-block mr-2" /> Liberdade e
-                flexibilidade.
-              </li>
-            </ul>
-          </div>
+        <div className="text-base md:text-lg text-outer-space items-center justify-items-center">
+          <ul className="list-disc list-inside mb-6 text-gray-700">
+            <li className="mb-4">
+              <span className="font-semibold">Aumente seus lucros:</span>
+              Com um desconto de 40% a 50% em todos os produtos, você tem
+              liberdade total para definir sua margem de lucro. Ofereça joias
+              exclusivas e de alta qualidade, garantindo mais vendas e um ticket
+              médio maior para seus clientes.
+            </li>
+            <li className="mb-4">
+              <span className="font-semibold">Riscos minimizados:</span>
+              Tudo o que você precisa já está pronto. Não é necessário investir
+              em estoque, nem se preocupar com fotografia ou logística. Nós
+              fornecemos as ferramentas para que você comece a vender
+              imediatamente.
+            </li>
+            <li className="mb-4">
+              <span className="font-semibold">Aumente seus lucros:</span>
+              Com um desconto de 40% a 50% em todos os produtos, você tem
+              liberdade total para definir sua margem de lucro. Ofereça joias
+              exclusivas e
+            </li>
+            <li className="mb-4">
+              <span className="font-semibold">
+                Fortaleça a relação com seus clientes:
+              </span>
+              Ao oferecer um portfólio de joias de ouro 18k, você reforça sua
+              posição como especialista e referência no mercado, fidelizando
+              seus clientes e atraindo novos públicos que buscam exclusividade e
+              luxo.
+            </li>
+            <li className="mb-4">
+              <span className="font-semibold">Parceria estratégica:</span>
+              Trabalhar com o Método Ricca é contar com décadas de experiência
+              no setor de joias. Oferecemos suporte completo, com mentorias
+              exclusivas, insights de mercado e uma equipe pronta para ajudar
+              seu negócio a crescer.
+            </li>
+          </ul>
         </div>
       </motion.section>
 
-      {/* Seção de CTA para Vídeo */}
-      <span id="cta"></span>
+      {/* Seção de diferenciação*/}
+      <span id="diferent"></span>
       <motion.section
         className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.0 }}
+        transition={{ duration: 1, delay: 0.8 }}
       >
-        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6 text-center">
-          Eu tenho muito mais para te contar
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
+          Você já sabe o valor de uma boa parceria
         </h2>
-        <p className="text-base md:text-lg text-gray-700 mb-6 text-center">
-          Assista ao vídeo e descubra como o Método Ricca pode transformar sua
-          vida!
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          O Método Ricca não é apenas um fornecedor de joias, é o parceiro que
+          faltava para levar seu negócio ao próximo nível. Você já tem a
+          expertise no mercado, agora ofereça mais aos seus clientes com um
+          portfólio exclusivo de joias de ouro 18k, sem precisar lidar com os
+          desafios tradicionais de múltiplos fornecedores.
+        </p>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Descubra como o Método Ricca pode transformar seu faturamento e
+          expandir seu negócio. Assista ao vídeo para mais detalhes!
         </p>
         <div className="flex justify-center">
           <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-              src="https://www.youtube.com/embed/tqyMQVbXP6A"
+              src="https://www.youtube.com/embed/tqyMQVbXP6A?si=ew-wtgIfV8thtYyp"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>
         </div>
+      </motion.section>
+
+      {/* Por que limitamos a parceria? */}
+      <span id="why"></span>
+      <motion.section
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.8 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
+          Por que limitamos a parceria?
+        </h2>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Nosso compromisso com a qualidade e o suporte é nosso diferencial.
+          Queremos garantir que cada parceiro tenha o acompanhamento necessário
+          para maximizar seus resultados.
+        </p>
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Não deixe essa oportunidade passar. Entre agora e faça parte de um
+          grupo seleto que já está lucrando com o Método Ricca.
+        </p>
       </motion.section>
 
       {/* Seção de Urgência */}
@@ -362,17 +425,21 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
       >
+        <p className="text-base md:text-lg text-gray-700 mb-6">
+          Oportunidades como esta são raras. Assegure-se de ter o Método Ricca
+          como parceiro e garanta uma vantagem competitiva no mercado.
+        </p>
         <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
-          Esta é uma oportunidade única e limitada a poucos parceiros
+          Por que limitamos a parceria?
         </h2>
         <p className="text-base md:text-lg text-gray-700 mb-6">
-          Porque acreditamos que a qualidade do suporte e mentoria é essencial
-          para o sucesso de cada parceiro. Não queremos apenas mais membros;
-          queremos parceiros de sucesso.
+          Nosso compromisso com a qualidade e o suporte é nosso diferencial.
+          Queremos garantir que cada parceiro tenha o acompanhamento necessário
+          para maximizar seus resultados.
         </p>
         <p className="text-base md:text-lg text-gray-700 mb-6">
-          Não deixe seus sonhos passarem diante dos seus olhos, agarre-os. Eles
-          podem estar a um clique de distância!
+          Não deixe essa oportunidade passar. Entre agora e faça parte de um
+          grupo seleto que já está lucrando com o Método Ricca.
         </p>
         <div className="flex justify-center space-x-4">
           <a
@@ -407,42 +474,28 @@ export default function Home() {
           O sucesso não espera
         </h2>
         <p className="text-base md:text-lg text-gray-700 mb-6">
-          Se você deseja liberdade financeira, geográfica e a chance de
-          construir algo grandioso, o Método Ricca é para você. Lembre-se: as
-          grandes oportunidades são aquelas que agarramos antes que os outros
-          percebam.
+          Se você deseja aumentar seus lucros, diversificar seu portfólio e
+          garantir mais valor para seus clientes, o Método Ricca é a parceria
+          que você precisa. Não perca tempo — junte-se agora e transforme seu
+          negócio.
         </p>
         <blockquote className="text-lg md:text-xl font-semibold text-outer-space italic mb-4">
-          "O futuro pertence àqueles que acreditam na beleza dos seus sonhos."
+          "O sucesso é resultado de boas decisões, e a melhor decisão é oferecer
+          mais valor aos seus clientes"
         </blockquote>
         <p className="text-right text-base md:text-lg text-gray-700">
-          — Eleanor Roosevelt
+          — Rafael Caetano
         </p>
-      </motion.section>
 
-      {/* Seção Quem é Rafael Caetano? */}
-      <span id="contato"></span>
-      <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-outer-space text-marfim rounded-lg shadow-lg"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.8 }}
-      >
         <h2 className="text-2xl md:text-4xl font-semibold mb-6">
           Quem é Rafael Caetano?
         </h2>
         <p className="text-base md:text-lg mb-6">
-          Mais conhecido como Ricca ou Rafael Ricca, é um amado marido e pai de
-          três filhas, CEO do Grupo Ricca, mentor e palestrante. Começou a
-          trabalhar com ouro entre 1994 e 1995, ajudando o pai no negócio da
-          família, que já estava consolidado desde 1950.
-        </p>
-        <p className="text-base md:text-lg mb-10">
-          Já em 2001, abriu sua primeira empresa no mesmo segmento no Brasil. E,
-          há 5 anos atua no mercado norte-americano, atendendo especialmente a
-          comunidade brasileira. Esse é um legado que ele valoriza e que deseja
-          compartilhar com você, para que também possa construir uma carreira
-          próspera.
+          Rafael Caetano, mais conhecido como Ricca ou Rafael Ricca, é CEO do
+          Grupo Ricca e especialista no mercado de joias de ouro 18k. Com mais
+          de 30 anos de experiência, ele agora oferece essa expertise como
+          mentor e parceiro estratégico para negócios que desejam crescer no
+          setor de moda e acessórios.
         </p>
         <Image
           src="/60c915dd-7797-4488-9b4f-fd0e8a5fe359.jpg"
@@ -462,6 +515,43 @@ export default function Home() {
           Fale Comigo
         </motion.a>
       </motion.section>
+
+      {/* Seção Quem é Rafael Caetano? */}
+      {/* <span id="contato"></span>
+      <motion.section
+        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-outer-space text-marfim rounded-lg shadow-lg"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.8 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
+          Quem é Rafael Caetano?
+        </h2>
+        <p className="text-base md:text-lg mb-6">
+          Rafael Caetano, mais conhecido como Ricca ou Rafael Ricca, é CEO do
+          Grupo Ricca e especialista no mercado de joias de ouro 18k. Com mais
+          de 30 anos de experiência, ele agora oferece essa expertise como
+          mentor e parceiro estratégico para negócios que desejam crescer no
+          setor de moda e acessórios.
+        </p>
+        <Image
+          src="/60c915dd-7797-4488-9b4f-fd0e8a5fe359.jpg"
+          alt="Imagem de Rafael Caetano"
+          width={600}
+          height={400}
+          className="rounded-lg shadow-lg mx-auto mb-6" // Adiciona espaço abaixo da imagem
+        />
+        <motion.a
+          href="https://wa.me/17747323422?text=Olá,%20eu%20gostaria%20de%20falar%20com%20você%20sobre%20o%20Método%20Ricca!"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-ocre-dourado text-marfim px-8 py-4 rounded-lg shadow-md hover:bg-ocre-amarelo transition-all duration-300 mt-6"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          Fale Comigo
+        </motion.a>
+      </motion.section> */}
 
       {/* Rodapé */}
       <footer className="bg-outer-space text-marfim text-center py-12 mt-16">
