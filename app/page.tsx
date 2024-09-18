@@ -393,28 +393,6 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* Por que limitamos a parceria? */}
-      <span id="why"></span>
-      <motion.section
-        className="max-w-xl md:max-w-3xl mx-auto mt-16 p-6 md:p-8 bg-white rounded-lg shadow-lg"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.8 }}
-      >
-        <h2 className="text-2xl md:text-4xl font-semibold text-outer-space mb-6">
-          Por que limitamos a parceria?
-        </h2>
-        <p className="text-base md:text-lg text-gray-700 mb-6">
-          Nosso compromisso com a qualidade e o suporte é nosso diferencial.
-          Queremos garantir que cada parceiro tenha o acompanhamento necessário
-          para maximizar seus resultados.
-        </p>
-        <p className="text-base md:text-lg text-gray-700 mb-6">
-          Não deixe essa oportunidade passar. Entre agora e faça parte de um
-          grupo seleto que já está lucrando com o Método Ricca.
-        </p>
-      </motion.section>
-
       {/* Seção de Urgência */}
       <span id="urgencia"></span>
       <motion.section
@@ -485,7 +463,7 @@ export default function Home() {
           — Rafael Caetano
         </p>
 
-        <h2 className="text-2xl md:text-4xl font-semibold mb-6">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6 mt-8">
           Quem é Rafael Caetano?
         </h2>
         <p className="text-base md:text-lg mb-6">
