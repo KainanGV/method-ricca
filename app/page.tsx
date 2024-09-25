@@ -260,13 +260,7 @@ export default function Home() {
           Como funciona?
         </h2>
         <p className="text-base md:text-lg text-gray-700 mb-6">
-          Imagine ter um catálogo completo de joias de ouro 18k à sua
-          disposição, sem a necessidade de investir em estoque ou em espaço
-          físico. Com o Método Ricca, você terá acesso a um site personalizado
-          com milhares de produtos prontos para venda. Nós cuidamos da
-          logística, fotografia e cadastro de produtos, enquanto você foca no
-          crescimento e na diversificação da sua oferta, ampliando o seu alcance
-          no mercado de luxo.
+          Imagine ter um catálogo completo de joias de ouro 18k à sua disposição, sem a necessidade de investir em estoque ou em espaço físico. Com o Método Ricca, você terá acesso a um site personalizado com milhares de produtos prontos para venda. Nós cuidamos da logística até a entrega do produto em suas mãos, para que você possa enviar diretamente aos seus clientes, enquanto foca no crescimento e na diversificação da sua oferta, ampliando o seu alcance no mercado de luxo.
         </p>
         <Image
           src="/third.png"
